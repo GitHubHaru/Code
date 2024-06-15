@@ -1,3 +1,7 @@
+import java.util.Random;
+import java.util.Scanner;
+public class test01 {
+	public static void main(String[] args) {
 boolean start=true;
 		while(start) {
 			Scanner select=new Scanner(System.in);
@@ -70,3 +74,5 @@ boolean start=true;
 				System.out.print("비겼습니다!다시 ");
 			}
 		}
+	}
+}
