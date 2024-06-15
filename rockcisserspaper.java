@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 public class test01 {
 	public static void main(String[] args) {
-boolean start=true;
+		boolean start=true;
 		while(start) {
 			Scanner select=new Scanner(System.in);
 			System.out.print("1~3 사이의 정수를 입력하세요.(1=묵,2=찌,3=빠)");
