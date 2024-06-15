@@ -1,4 +1,8 @@
-long money=1000;
+import java.util.Random;
+import java.util.Scanner;
+public class test02 {
+	public static void main(String[] args) {
+		long money=1000;
 		int wl=0;
 		int last=0;
 		int money2=0;
@@ -1079,3 +1083,5 @@ long money=1000;
 		else {
 			System.out.println("파산 하였습니다..");
 		}
+	}
+}
